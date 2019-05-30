@@ -15,7 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="quicksort.cpp">
+    <ClInclude Include="bubble_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quick_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
