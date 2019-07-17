@@ -4,6 +4,8 @@
     > Mail: wangsixiamksh@163.com 
     > Created Time: 2019-07-15
  ************************************************************************/
+#ifndef HEAP_SORT_H_
+#define HEAP_SORT_H_
 template<typename T>
     void Max_Heapify(T*arr, int i,size_t heapSize)
     {
@@ -39,3 +41,4 @@ template<typename T>
             Max_Heapify(arr, 0,i);
         }
     } 
+#endif
