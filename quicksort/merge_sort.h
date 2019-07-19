@@ -4,7 +4,7 @@
     > Mail: wangsixiamksh@163.com 
     > Created Time: 2019-07-15
  ************************************************************************/
-
+#progma once
 template <typename T>
 void Merge(T *sourceArray, T *temp, int Start_Index, int Mid_Index, int End_Index) {
     int i = Start_Index, j = Mid_Index + 1, k = Start_Index;
